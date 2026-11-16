@@ -1,0 +1,151 @@
+{
+    "os": "Linux-6.17.0-1033-oem-x86_64-with-glibc2.39",
+    "python": "3.9.23",
+    "heartbeatAt": "2026-11-13T07:43:43.467123",
+    "startedAt": "2026-11-13T07:43:43.444616",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--task",
+        "tsp",
+        "--diffusion_type",
+        "categorical",
+        "--do_test",
+        "--ckpt_path",
+        "models/tsp50_concorde_1epoch/fm6khhos/checkpoints/last.ckpt",
+        "--storage_path",
+        "/home/naman/Pictures/diffusion/DIFUSCO",
+        "--training_split",
+        "data/tsplib_large/kroA100_concorde.txt",
+        "--validation_split",
+        "data/tsplib_large/kroA100_concorde.txt",
+        "--test_split",
+        "data/tsplib_large/kroA100_concorde.txt",
+        "--wandb_logger_name",
+        "tsp50_time_kroA100",
+        "--batch_size",
+        "1",
+        "--num_epochs",
+        "1",
+        "--num_workers",
+        "1",
+        "--validation_examples",
+        "1",
+        "--diffusion_steps",
+        "1000",
+        "--inference_schedule",
+        "cosine",
+        "--inference_diffusion_steps",
+        "10",
+        "--two_opt_iterations",
+        "1000"
+    ],
+    "state": "running",
+    "program": "/home/naman/Pictures/diffusion/DIFUSCO/difusco/train.py",
+    "codePath": "difusco/train.py",
+    "git": {
+        "remote": "https://github.com/Edward-Sun/DIFUSCO.git",
+        "commit": "65eb3b7bde76097c0d3438ce743fa6769baf9ce5"
+    },
+    "email": "naman.joshi@delhivery.com",
+    "root": "/home/naman/Pictures/diffusion/DIFUSCO",
+    "host": "DLN-087752",
+    "username": "naman",
+    "executable": "/home/naman/miniforge3/envs/difusco/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3420.0828749999996,
+        "min": 623.3770000000002,
+        "max": 4298.701999999999
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 5026.503,
+            "min": 623.377,
+            "max": 5090.91
+        },
+        {
+            "current": 2442.91,
+            "min": 623.377,
+            "max": 3506.494
+        },
+        {
+            "current": 5019.364,
+            "min": 623.377,
+            "max": 5090.91
+        },
+        {
+            "current": 1798.569,
+            "min": 623.377,
+            "max": 3506.494
+        },
+        {
+            "current": 5023.94,
+            "min": 623.377,
+            "max": 5090.91
+        },
+        {
+            "current": 1481.947,
+            "min": 623.377,
+            "max": 3506.494
+        },
+        {
+            "current": 5021.912,
+            "min": 623.377,
+            "max": 5090.91
+        },
+        {
+            "current": 2443.359,
+            "min": 623.377,
+            "max": 3506.494
+        },
+        {
+            "current": 5022.047,
+            "min": 623.377,
+            "max": 5090.91
+        },
+        {
+            "current": 2433.318,
+            "min": 623.377,
+            "max": 3506.494
+        },
+        {
+            "current": 5022.293,
+            "min": 623.377,
+            "max": 5090.91
+        },
+        {
+            "current": 2444.034,
+            "min": 623.377,
+            "max": 3506.494
+        },
+        {
+            "current": 5009.809,
+            "min": 623.377,
+            "max": 5090.91
+        },
+        {
+            "current": 2443.289,
+            "min": 623.377,
+            "max": 3506.494
+        },
+        {
+            "current": 2357.376,
+            "min": 623.377,
+            "max": 5090.91
+        },
+        {
+            "current": 2444.745,
+            "min": 623.377,
+            "max": 3506.494
+        }
+    ],
+    "disk": {
+        "total": 454.6698303222656,
+        "used": 153.44250106811523
+    },
+    "memory": {
+        "total": 61.982845306396484
+    }
+}

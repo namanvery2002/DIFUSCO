@@ -2,7 +2,10 @@
 
 import glob
 import os
-import pickle5 as pickle
+try:
+  import pickle5 as pickle
+except ModuleNotFoundError:  # Python >= 3.8 ships pickle protocol 5 in stdlib
+  import pickle
 
 import numpy as np
 import torch

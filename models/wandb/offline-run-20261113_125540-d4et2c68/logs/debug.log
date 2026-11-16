@@ -1,0 +1,22 @@
+2026-11-13 12:55:40,236 INFO    MainThread:42977 [wandb_setup.py:_flush():68] Configure stats pid to 42977
+2026-11-13 12:55:40,236 INFO    MainThread:42977 [wandb_setup.py:_flush():68] Loading settings from /home/naman/.config/wandb/settings
+2026-11-13 12:55:40,236 INFO    MainThread:42977 [wandb_setup.py:_flush():68] Loading settings from /home/naman/Pictures/diffusion/DIFUSCO/wandb/settings
+2026-11-13 12:55:40,236 INFO    MainThread:42977 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'mode': 'offline', '_require_service': 'True'}
+2026-11-13 12:55:40,236 INFO    MainThread:42977 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'difusco/train.py', 'program': '/home/naman/Pictures/diffusion/DIFUSCO/difusco/train.py'}
+2026-11-13 12:55:40,236 INFO    MainThread:42977 [wandb_init.py:_log_setup():478] Logging user logs to /home/naman/Pictures/diffusion/DIFUSCO/models/wandb/offline-run-20261113_125540-d4et2c68/logs/debug.log
+2026-11-13 12:55:40,236 INFO    MainThread:42977 [wandb_init.py:_log_setup():479] Logging internal logs to /home/naman/Pictures/diffusion/DIFUSCO/models/wandb/offline-run-20261113_125540-d4et2c68/logs/debug-internal.log
+2026-11-13 12:55:40,236 INFO    MainThread:42977 [wandb_init.py:init():518] calling init triggers
+2026-11-13 12:55:40,236 INFO    MainThread:42977 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2026-11-13 12:55:40,236 INFO    MainThread:42977 [wandb_init.py:init():571] starting backend
+2026-11-13 12:55:40,236 INFO    MainThread:42977 [wandb_init.py:init():575] setting up manager
+2026-11-13 12:55:40,237 INFO    MainThread:42977 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2026-11-13 12:55:40,238 INFO    MainThread:42977 [wandb_init.py:init():582] backend started and connected
+2026-11-13 12:55:40,240 INFO    MainThread:42977 [wandb_init.py:init():670] updated telemetry
+2026-11-13 12:55:40,249 INFO    MainThread:42977 [wandb_init.py:init():758] starting run threads in backend
+2026-11-13 12:55:40,982 INFO    MainThread:42977 [wandb_run.py:_console_start():2101] atexit reg
+2026-11-13 12:55:40,982 INFO    MainThread:42977 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2026-11-13 12:55:40,982 INFO    MainThread:42977 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2026-11-13 12:55:40,982 INFO    MainThread:42977 [wandb_run.py:_redirect():2046] Redirects installed.
+2026-11-13 12:55:40,982 INFO    MainThread:42977 [wandb_init.py:init():798] run started, returning control to user process
+2026-11-13 12:55:47,470 WARNING MsgRouterThr:42977 [router.py:message_loop():77] message_loop has been closed
